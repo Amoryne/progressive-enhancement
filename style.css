@@ -1,0 +1,246 @@
+/* Paragraphes */
+
+p {
+ 
+   font-family: Georgia, serif;
+   letter-spacing: 0.5px;
+   color: rgb(33, 33, 33);
+
+
+}
+
+/*liens */
+
+a:link {
+	color: paleturquoise;
+	text-decoration: none;
+}
+a:visited {
+  color: green;
+  text-decoration: none;
+
+}
+a:hover {
+	color: hotpink;
+	text-decoration: underline;
+}
+a:active {
+	color: blue;
+	text-decoration: underline;
+}
+
+body {
+	max-height: 90%;
+	max-width: 90%;
+	border: 1px solid lightpink;
+	padding: 40px;
+	margin-right: 150px;
+	margin-top: 60px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+  background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/test4.jpg");
+  background-position: center;
+  background-size: 3000px 3000px cover ;
+  background-repeat: no-repeat;
+
+
+}
+
+blockquote {
+	font-size: 160%;
+	background-color: #f4f4f4;
+	padding: 30px;
+	border-color: firebrick;
+	border-left: 3px solid firebrick;
+	letter-spacing: 0.2px;
+	margin-bottom: 80px;
+	margin-top: 80px;
+	font-style: italic;
+}
+
+.farmer {
+	border-color: green;
+	border-left: 3px solid green;
+	display: block;
+	clear: none;
+
+	
+
+}
+.Good
+{
+	text-transform: capitalize;
+	color: darkred;
+}
+.bad {
+	text-transform: capitalize;
+	color: darkgreen;
+
+}
+
+td {
+background-color: lightgray;
+border: 2px solid darkgray;
+}
+tr {
+	background-color: white;
+
+
+}
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid lightpink;
+}
+tbody th:nth-child(1) {
+  width: 30%;
+}
+tbody th:nth-child(2) {
+  width: 20%;
+}
+tbody th:nth-child(3) {
+  width: 15%;
+}
+tbody th:nth-child(4) {
+  width: 35%;
+}
+th, td {
+	padding: 20px;
+
+}
+tbody th {
+	text-align: left;
+}
+thead th{
+	background-color: lightgrey;
+	border: 2px dotted darkgray;
+	text-decoration: underline blue ;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+table > caption {
+	font-size: 20px;
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	background-color: floralwhite;
+	border: 2px solid grey;
+
+}
+
+
+
+li {
+  padding: 10px;
+  list-style-type: none;
+  margin-left: -30px;
+  margin-top: 10px;
+	}
+
+.bien
+{
+	background-repeat: no-repeat;
+	background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/bien.png");
+  background-position: 10px 0.5px;
+  padding-left: 50px;
+
+  list-style-type: none;
+  background-size: 3%;
+
+}
+
+.mal
+
+{
+	background-repeat: no-repeat;
+	background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/mal.png");
+  background-position: 10px 0.5px;
+  padding-left: 50px;
+
+  list-style-type: none;
+  background-size: 3%;
+
+}
+
+.chat
+{
+	background-repeat: no-repeat;
+	background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/chat.png");
+  background-position: 10px 0.6px;
+  padding-left: 50px;
+
+  list-style-type: none;
+  background-size: 3.5%;
+
+}
+
+.p1{
+	font-weight: bold ;
+}
+
+header > h1 
+{
+	background-color: yellow;
+}
+
+
+
+.text1 {
+	display: block;
+	margin-top: 35px;
+	text-align: justify;
+
+}
+
+img {
+
+
+  margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	height: 60%;
+	float: right;
+	
+	padding: 20px;
+	}
+	
+
+/**figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  float: left;
+  margin-left: 300px;
+  
+}
+
+
+
+figcaption {
+  align-self: flex-end;
+  text-align: 20px;
+  font-style: italic;
+  line-height: 2;
+  color: #777;
+  padding-right: 5px;
+**/
+
+.notif{
+	
+
+	width:300px;
+	background-color: lightyellow;
+	border: 2px solid yellowgreen;
+	padding: 30px;
+	font-size: x-large;
+	position: fixed;
+	top: 2px;
+	left: 2px;
+
+
+}
+
+
+
