@@ -38,7 +38,7 @@ body {
 	margin-top: 60px;
 	margin-left: 150px;
 	margin-bottom: 50px;
-  background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/test4.jpg");
+  background-image: url("images/test4.jpg");
   background-position: center;
   background-size: 3000px 3000px cover ;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@ li {
 .bien
 {
 	background-repeat: no-repeat;
-	background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/bien.png");
+	background-image: url("images/bien.png");
   background-position: 10px 0.5px;
   padding-left: 50px;
 
@@ -155,7 +155,7 @@ li {
 
 {
 	background-repeat: no-repeat;
-	background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/mal.png");
+	background-image: url("images/mal.png");
   background-position: 10px 0.5px;
   padding-left: 50px;
 
@@ -167,7 +167,7 @@ li {
 .chat
 {
 	background-repeat: no-repeat;
-	background-image: url("/home/becode/Documents/exercise-4/progressive-enhancement/images/chat.png");
+	background-image: url("images/chat.png");
   background-position: 10px 0.6px;
   padding-left: 50px;
 
