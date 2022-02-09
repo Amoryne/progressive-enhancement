@@ -38,7 +38,7 @@ body {
 	margin-top: 60px;
 	margin-left: 150px;
 	margin-bottom: 50px;
-  background-image: url("images/test4.jpg");
+  background-image: url("/images/test4.jpg");
   background-position: center;
   background-size: 3000px 3000px cover ;
   background-repeat: no-repeat;
